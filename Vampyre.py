@@ -1,6 +1,6 @@
 from character import Character
 
-class Berserk(Character):
+class vampire(Character):
 
     def __init__(self, name, hp, damage, armor):
         Character.__init__(self, name, hp, damage, armor)

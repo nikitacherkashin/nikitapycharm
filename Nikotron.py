@@ -8,4 +8,4 @@ class Nikotron(Character):
             return(self.max_hp + self.hp) / self.max_hp * self.damage
 
             def attack(self, target):
-                 target.take_heal(self.heal + self.count_edition_heal())
+                  target.take_heal(self.heal + self.count_edition_heal())
